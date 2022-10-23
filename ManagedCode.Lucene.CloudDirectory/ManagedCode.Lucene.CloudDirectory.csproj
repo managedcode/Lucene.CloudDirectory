@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <LangVersion>10</LangVersion>
+        <DebugType>embedded</DebugType>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <!--NuGet-->
+    <PropertyGroup>
+        <Title>Lucene CloudDirectory</Title>
+        <PackageId>ManagedCode.Lucene.CloudDirectory</PackageId>
+        <Description>CloudDirectory for Lucene.NET</Description>
+        <PackageTags>managedcode, aws, storage, cloud, s3, blob, lucene</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+        <PackageReference Include="Lucene.Net" Version="4.8.0-beta00016" />
+        <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00016" />
+        <PackageReference Include="Lucene.Net.Queries" Version="4.8.0-beta00016" />
+        <PackageReference Include="Lucene.Net.QueryParser" Version="4.8.0-beta00016" />
+        <PackageReference Include="ManagedCode.Storage.Azure" Version="2.1.11" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>
