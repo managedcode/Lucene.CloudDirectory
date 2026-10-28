@@ -18,13 +18,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
-        <PackageReference Include="Lucene.Net" Version="4.8.0-beta00016" />
-        <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00016" />
-        <PackageReference Include="Lucene.Net.Queries" Version="4.8.0-beta00016" />
-        <PackageReference Include="Lucene.Net.QueryParser" Version="4.8.0-beta00016" />
-        <PackageReference Include="ManagedCode.Storage.Azure" Version="2.1.11" />
-        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.30.1" />
+        <PackageReference Include="Lucene.Net" Version="4.8.0-beta00018" />
+        <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00018" />
+        <PackageReference Include="Lucene.Net.Queries" Version="4.8.0-beta00018" />
+        <PackageReference Include="Lucene.Net.QueryParser" Version="4.8.0-beta00018" />
+        <PackageReference Include="ManagedCode.Storage.Azure" Version="2.1.21" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.13" />
     </ItemGroup>
 
 </Project>
